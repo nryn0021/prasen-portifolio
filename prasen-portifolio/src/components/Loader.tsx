@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
-function Loader({ isLoading, setIsLoading }) {
+function Loader({ isLoading, setIsLoading }: any) {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading();
@@ -40,7 +40,7 @@ function Loader({ isLoading, setIsLoading }) {
                     scale: 2,
                   }}
                   fill="currentColor"
-                  d="M 10 0 L 10 30 L 20 30 Q 30 30 30 20 Q 30 10 20 10 L 10 10 Z"
+                  d="M 0,0 L 0,30 L 10,30 Q 20,30 20,20 Q 20,10 10,10 L 0,10 Z"
                 />
               </g>
               <g id="N" transform="translate(50.000000, 25.000000)">
