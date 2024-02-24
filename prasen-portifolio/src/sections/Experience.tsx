@@ -16,7 +16,7 @@ function Experience() {
     {
       name: "Rapidops",
       role: "Full Stack Developer",
-      url: "https://www.rapidops.com",
+      url: "https://prasennarayan.freewebhostmost.com",
       start: "January 2021",
       end: "Present",
       shortDescription: [
@@ -29,7 +29,7 @@ function Experience() {
     {
       name: "Youtube",
       role: "Content Creator",
-      url: "https://www.youtube.com/kishansheth21",
+      url: "https://www.youtube.com/prasen",
       start: "April 2021",
       end: "Present",
       shortDescription: [

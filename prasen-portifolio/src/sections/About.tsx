@@ -28,7 +28,7 @@ function About() {
       <div className="about-grid">
         <div className="about-grid-info">
           <p className="about-grid-info-text">
-            Bonjour! My name is Kishan, and I am passionate about creating
+            Bonjour! My name is Prasen, and I am passionate about creating
             digital content for the web. My interest in web development was
             sparked in 2016 when I created my first project called Lavish, a
             social media app built using React and Node.js.
@@ -77,7 +77,7 @@ function About() {
           <div className="overlay"></div>
           <div className="overlay-border"></div>
           <div className="about-grid-photo-container">
-            <Image src="/kishan.jpeg" alt="profile" fill />
+            <Image src="/prasen.jpg" alt="profile" fill />
           </div>
         </div>
       </div>

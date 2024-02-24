@@ -10,7 +10,7 @@ function Footer() {
   });
 
   useEffect(() => {
-    fetch("https://api.github.com/repos/koolkishan/chat-app-react-nodejs")
+    fetch("https://api.github.com/repos/nryn0021/PNChat")
       .then((response) => response.json())
       .then((json) => {
         const { stargazers_count, forks_count } = json;
@@ -25,7 +25,7 @@ function Footer() {
   return (
     <footer>
       <Link
-        href="https://github.com/koolkishan/chat-app-react-nodejs"
+        href="https://github.com/nryn0021/PNChat"
         target="_blank"
         className="footer-link"
       >
