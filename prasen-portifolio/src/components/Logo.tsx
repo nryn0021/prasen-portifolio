@@ -11,6 +11,12 @@ function Logo() {
             d="M 10 0 L 10 30 L 20 30 Q 30 30 30 20 Q 30 10 20 10 L 10 10 Z"
           />
         </g>
+        <g id="N" transform="translate(50.000000, 25.000000)">
+          <path
+            fill="currentColor"
+            d="M 10 0 L 10 30 L 20 30 Q 40 15 20 0 Z"
+          />
+        </g>
       </g>
     </svg>
   );
