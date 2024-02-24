@@ -10,7 +10,7 @@ function Footer() {
   });
 
   useEffect(() => {
-    fetch("https://api.github.com/repos/nryn0021/PNChat")
+    fetch("https://github.com/nryn0021/flappy-game")
       .then((response) => response.json())
       .then((json) => {
         const { stargazers_count, forks_count } = json;
@@ -25,11 +25,11 @@ function Footer() {
   return (
     <footer>
       <Link
-        href="https://github.com/nryn0021/PNChat"
+        href="https://github.com/nryn0021/flappy-game"
         target="_blank"
         className="footer-link"
       >
-        <span className="footer-info">Designed and Built by Kishan Sheth.</span>
+        <span className="footer-info">Designed and Built by Prasen Narayan.</span>
         {githubInfo && (
           <div className="footer-git">
             <div className="footer-git-item">
